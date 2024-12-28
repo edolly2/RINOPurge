@@ -1,0 +1,16 @@
+.news-container {
+  width: 55%;
+}
+
+.news-img {
+  width: 5vw;
+  height: auto;
+}
+
+.news-wrapper {
+  display: flex;
+}
+
+.read-full-link {
+  white-space: nowrap;
+}

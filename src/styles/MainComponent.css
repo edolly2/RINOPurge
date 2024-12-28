@@ -1,0 +1,28 @@
+/* Main Container */
+.main-container {
+  flex: 1; /* Takes up remaining space between header and footer */
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for readability */
+  /* font-family: Arial, sans-serif; */
+  overflow-y: auto; /* Allows vertical scrolling if needed */
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-container {
+    padding: 10px; /* Smaller padding for smaller screens */
+  }
+  .content-wrapper {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,15 @@
+ol {
+  list-style-type: style;
+}
+
+.home-section-img {
+  max-width: 250px;
+}
+
+.home-section-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+}
